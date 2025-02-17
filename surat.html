@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat izin</title>
+    <script>
+        function printPage() {
+            window.print();
+        }
+    </script>
+</head>
+    <body>
+        <div class="kertas_A4">
+            <h1>Surat Izin Tidak Masuk Sekolah</h1>
+            <hr>
+            <p> Kepada Yth.</p>
+            <p> Bapak/Ibu Guru</p>
+            <p> Sekolah...</p>
+            <p> di tempat</p>
+        </p>
+        <p> Dengan hormat,</p>
+        <p>Saya yang bertanda tangan di bawah ini:</p>
+        <ul>
+            <li>Nama : [Nama Lengkap]</li>
+            <li> Kelas : [Kelas]</li>
+            <li>Nomor Induk Siswa : [NIS]</li>
+        </ul>
+           <p>Ingin memberitahukan bahwa anak saya tidak dapat mengikuti pelajaran di sekolah pada tanggal [tanggal] karena [alasan, misalnya sakit, ada keperluan mendesak, dll]. Untuk itu, mohon izin agar anak saya tidak diberikan tugas atau hukuman selama ketidakhadirannya.</p>
+         </p>
+         <p> Demikian surat izin ini saya buat dengan sebenarnya. Atas perhatian Bapak/Ibu, saya mengucapkan terima kasih.</p>
+            
+           
+           <p>Hormat saya,</p> 
+           <p>[Nama Orang Tua/Wali]</p> 
+           <p>Tanda tangan: ___________</p> 
+        </div>
+        <button onclick="printPage()">Print Surat</button>
+    </body>
+</html>
+
+
+<style>
+    body {
+        background-color: rgb(0, 0, 0);
+           display: auto;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+    }
+   .kertas_A4 {
+         background-color: white;
+         padding: 2cm 2cm 2cm 2cm;
+         width: 21cm;
+         height: 29.7cm;
+         margin: auto;
+   }
+   button:hover {
+        background-color: #1e1be9;
+        
+    }
+    button {
+        padding: 20px 40px;
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
